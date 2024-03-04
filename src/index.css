@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #121212;
+}
+
+
+.openAnimation {
+  animation: open-menu .3s linear forwards;
+}
+
+.closeAnimation {
+  animation: close-menu .3s linear forwards;
+}
+
+@keyframes open-menu {
+  0% {width: 100%;} /*You can use animation what do You need*/
+  100% {width: 23%;}
+}
+
+@keyframes close-menu {
+  0% {width: 23%;}
+  100% {width: 100%;}
+}
+  
+.openAnimation1 {
+  animation: open-menu1 .3s linear forwards;
+}
+
+.closeAnimation1 {
+  animation: close-menu1 .3s linear forwards;
+}
+
+@keyframes open-menu1 {
+  0% {width: 100%;} /*You can use animation what do You need*/
+  100% {width: 23%;}
+}
+
+@keyframes close-menu1 {
+  0% {width: 23%;}
+  100% {width: 100%;}
+}
+
